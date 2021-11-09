@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Random</string>
+    <string name="app_title">Random</string>
+    <string name="interrogante">_?</string>
+    <string name="button_verificar">Verificar</string>
+    <string name="text_description">Encuentra el numero entre del 0 - 100</string>
+    <string name="text_vidas">5</string>
+    <string name="text_button_otra_ronda">Otra ronda</string>
+    <string name="text_juego_terminado">Juego terminado</string>
+    <string name="text_num_real"></string>
+    <string name="text_juego_terminado_desc">Tu numero era el:</string>
+</resources>
