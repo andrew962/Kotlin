@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">cloudNotes</string>
-    <string name="cellphone_number">Numero de telefono</string>
-    <string name="code_sended">Codigo</string>
-    <string name="textBtn_enviar">Enviar</string>
-    <string name="textBtn_check">Verificar</string>
-</resources>

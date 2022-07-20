@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/initFragment">
+    <fragment
+        android:id="@+id/formNewItemFragment"
+        android:name="com.afam.todolist.FormNewItemFragment"
+        android:label="fragment_form_new_item"
+        tools:layout="@layout/fragment_form_new_item" >
+        <action
+            android:id="@+id/action_formNewItemFragment_to_initFragment"
+            app:destination="@id/initFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/initFragment"
+        android:name="com.afam.todolist.InitFragment"
+        android:label="fragment_init"
+        tools:layout="@layout/fragment_init" >
+        <action
+            android:id="@+id/action_initFragment_to_formNewItemFragment"
+            app:destination="@id/formNewItemFragment" />
+    </fragment>
+</navigation>

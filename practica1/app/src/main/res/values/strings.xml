@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Practica1</string>
+    <string name="add_btn">New</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+</resources>
