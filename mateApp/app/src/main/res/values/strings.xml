@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">mateApp</string>
+    <string name="strBtnCalcular">Calcular</string>
+
 </resources>

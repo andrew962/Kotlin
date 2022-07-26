@@ -3,9 +3,7 @@ package com.afam.mateapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import com.afam.mateapp.adapter.MatOptionAdapter
 import com.afam.mateapp.databinding.ActivityMainBinding
 import java.io.Serializable
@@ -25,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         initRecyclerView()
     }
 
-    fun initRecyclerView() {
+    private fun initRecyclerView() {
         val recyclerView = binding.recyclerMatOption
         recyclerView.layoutManager = LinearLayoutManager(this)
         recyclerView.adapter =
@@ -34,7 +32,7 @@ class MainActivity : AppCompatActivity() {
                 { matOption -> onItemSelected(matOption) })
     }
 
-    fun onItemSelected(matOption: MatOption) {
+    private fun onItemSelected(matOption: MatOption) {
         val intent = Intent(this, BasicOperationActivity::class.java)
         intent.putExtra("INTENT_DATA", matOption as Serializable)
         startActivity(intent)
